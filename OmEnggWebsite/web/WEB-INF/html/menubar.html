@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <script type="text/javascript" src="../js/cssSupport.js"></script>
+    <link rel="import" href="tbar.html">
+    <title>Menu Page</title>
+</head>
+<body>
+<div class="bs-docs-section clearfix">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-header">
+                <h1 id="navbar">Om Engineering Company</h1>
+            </div>
+
+            <div class="bs-component">
+                <nav class="navbar navbar-inverse" id="navigation-bar">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Home</a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                            <ul class="nav navbar-nav">
+                                <li id="dropdown" class="dropdown" onclick="openDropdown(this.id);">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Custom</a></li>
+                                        <li><a href="#" onclick="load_menu()">tbar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Place Order</a></li>
+                            </ul>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+  <!--  <div>
+        <iframe id="iframe" src="homepage.html" class="iframe-styling"></iframe>
+    </div>-->
+</div>
+</div>
+<div class="container" id="contents">
+
+</div>
+</body>
+</html>
