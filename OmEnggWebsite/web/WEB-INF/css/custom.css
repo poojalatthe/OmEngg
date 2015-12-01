@@ -42,3 +42,7 @@ table.primary tr:nth-child(even) {
     background-color: transparent;
 }
 
+.form_class{
+    margin: 5%;
+}
+
