@@ -10,7 +10,8 @@ function openDropdown(clicked_id) {
 }
 
 function load_menu(){
-    console.log(data);
-    document.getElementById("contents").innerHTML = document.getElementById("hello").innerHTML;
+    console.log("hello");
+    document.getElementById("contents").innerHTML = '<object type="type/html" data="../html/tbar.html" ></object>';
+
 }
 
