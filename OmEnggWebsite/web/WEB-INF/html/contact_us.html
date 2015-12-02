@@ -8,38 +8,36 @@
     <title></title>
 </head>
 <body>
-<form class="form-horizontal form_class">
+<form class="form-horizontal form_class" action="mailto:link2poo@gmail.com?subject=enquiry" method="post" enctype="text/plain">
     <fieldset>
         <div class="form-group">
             <label class="col-lg-2 control-label text_style" for="name">Name</label>
-
             <div class="col-lg-10">
-                <input id="name" class="form-control" type="text" placeholder="Name/Company Name"/>
+                <input  name="name" id="name" class="form-control" type="text" placeholder="Name/Company Name"/>
             </div>
         </div>
         <div class="form-group">
             <label class=" col-lg-2 control-label text_style" for="contact">Contact Number</label>
 
             <div class="col-lg-10">
-                <input id="contact" class="form-control" type="text" placeholder="Contact Number"/>
+                <input name="contact" id="contact" class="form-control" type="text" placeholder="Contact Number"/>
             </div>
         </div>
         <div class="form-group">
             <label class="col-lg-2 control-label text_style" for="inputEmail">Email</label>
-
             <div class="col-lg-10">
-                <input id="inputEmail" class="form-control" type="text" placeholder="Email"/>
+                <input name="email" id="inputEmail" class="form-control" type="text" placeholder="Email"/>
             </div>
         </div>
         <div class="form-group">
             <label class="col-lg-2 control-label text_style" for="textArea">Place your Enquiry here</label>
             <div class="col-lg-10">
-                <textarea id="textArea" class="form-control" rows="4"></textarea>
+                <textarea name="enquiry" id="textArea" class="form-control" rows="4"></textarea>
             </div>
         </div>
         <div align="center">
-        <button class="btn btn-primary" type="submit">Submit</button>
-        </div>
+            <input type="submit" class="btn btn-primary" value="submit"/>
+                </div>
     </fieldset>
 </form>
 </body>
