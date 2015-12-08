@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="OmEnggWebsite:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/OmEnggWebsite_war_exploded</output-path>
+  <artifact type="exploded-ear" name="OmEnggWebsite">
+    <output-path>$PROJECT_DIR$/out/artifacts/OmEnggWebsite</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="OmEnggWebsite/web/Web" />
       <element id="directory" name="WEB-INF">
