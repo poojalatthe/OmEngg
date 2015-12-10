@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html>
-<body>
-<form id="contactform" method="POST" action="http://formspree.io/link2poo@gmail.com">
-    <input type="text" placeholder="Your name" name="text">
-    <input type="email" placeholder="Your email" name="_replyto">
-    <textarea placeholder="Your message" name="textmessage"></textarea>
-    <input type="submit" value="Send">
-</form>
+<head>
+    <script type="text/javascript"
+            src="http://maps.google.com/maps/api/js?sensor=false">
+    </script>
+    <script type="text/javascript">
+        function initialize() {
+            var position = new google.maps.LatLng(15.815952, 74.495882);
+            var myOptions = {
+                zoom: 10,
+                center: position,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(
+                    document.getElementById("map_canvas"),
+                    myOptions);
 
+            var marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                title:"This is the place."
+            });
+
+            var contentString = 'Hello';
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(map,marker);
+            });
+
+        }
+
+    </script>
+</head>
+<body onload="initialize()">
+<div id="map_canvas" style="width:500px; height:500px"></div>
 </body>
 </html>
