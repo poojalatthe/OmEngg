@@ -66,11 +66,8 @@ function orderMore() {
     original.appendChild(divele);
 }
 
-var global =0;
-
 function createFormField() {
-    console.log(global);
-    var attach = '<label class="col-lg-2 control-label text_style">Model Number</label>' +
+     var attach = '<label class="col-lg-2 control-label text_style">Model Number</label>' +
         '<div class="col-lg-3">' +
         '<select class="form-control" name="modelType">' +
         '<option>NRV-6 - S1</option>  <option>NRV-6 - S2</option>  <option>NRV-6 - S3</option>  <option>NRV-6 - S4</option>' +
@@ -83,8 +80,13 @@ function createFormField() {
         '</select>  </div>  <label class="col-lg-2 control-label text_style">Quantity</label> ' +
         '<div class="col-lg-3">' +
         '<input type="number" min="1" max="500" value="1" name="qty"class="form-control">'
-        + '</div>' + '<button class="btn btn-default" type="button" onclick="orderMore();">Order More</button>';
+        + '</div>' + '<button class="btn btn-success" type="button" onclick="orderMore();">+</button> '+
+        '<button class="btn btn-danger" type="button">-</button>';
 
-    global ++;
     return attach;
+}
+
+
+function removeTag(){
+    this.parent('div').remove();
 }

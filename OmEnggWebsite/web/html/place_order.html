@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../css/custom.css">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <script type="text/javascript" src="../js/cssSupport.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 </head>
 <body>
 <form class="form-horizontal form_class" action="////formspree.io/link2poo@gmail.com" method="post">
@@ -129,5 +130,11 @@
         </div>
     </fieldset>
 </form>
+<script type="text/javascript">
+    $(".btn-danger a").click(function(e) {
+        e.preventDefault();
+        $(this).parent().remove();
+    });
+</script>
 </body>
 </html>
