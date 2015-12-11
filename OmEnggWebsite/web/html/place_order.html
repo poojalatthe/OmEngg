@@ -40,14 +40,14 @@
             <label class="col-lg-2 control-label text_style" for="textArea">Address</label>
 
             <div class="col-lg-10">
-                <textarea name="enquiry" id="textArea" class="form-control" rows="2"></textarea>
+                <textarea name="address" id="textArea" class="form-control" rows="2"></textarea>
             </div>
         </div>
         <div class="form-group">
             <label class=" col-lg-2 control-label text_style" for="city">City</label>
 
             <div class="col-lg-10">
-                <input name="state" id="city" class="form-control" type="text" placeholder="City"/>
+                <input name="city" id="city" class="form-control" type="text" placeholder="City"/>
             </div>
         </div>
         <div class="form-group">
@@ -66,36 +66,55 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <label for="select" class="col-lg-2 control-label text_style">Model Number</label>
+        <div class="form-group" id="repeat">
+            <label class="col-lg-2 control-label text_style">Model Number</label>
 
-            <div class="col-lg-10">
-                <select class="form-control" id="select">
-                    <option>NRV-8</option>
-                    <option>NRV-10</option>
-                    <option>NRV-12</option>
-                    <option>NRV-16</option>
-                    <option>NRV-20</option>
-                    <option>NRV-25</option>
-                    <option>NRV-30</option>
-                    <option>NRV-40</option>
+            <div class="col-lg-3">
+                <select class="form-control" name="modelType">
+                    <option>NRV-6 - S1</option>
+                    <option>NRV-6 - S2</option>
+                    <option>NRV-6 - S3</option>
+                    <option>NRV-6 - S4</option>
+                    <option>NRV-8 - S1</option>
+                    <option>NRV-8 - S2</option>
+                    <option>NRV-8 - S3</option>
+                    <option>NRV-8 - S4</option>
+                    <option>NRV-10 - S1</option>
+                    <option>NRV-10 - S2</option>
+                    <option>NRV-10 - S3</option>
+                    <option>NRV-10 - S4</option>
+                    <option>NRV-15 - S1</option>
+                    <option>NRV-15 - S2</option>
+                    <option>NRV-15 - S3</option>
+                    <option>NRV-15 - S4</option>
+                    <option>NRV-20 - S1</option>
+                    <option>NRV-20 - S2</option>
+                    <option>NRV-20 - S3</option>
+                    <option>NRV-20 - S4</option>
+                    <option>NRV-25 - S1</option>
+                    <option>NRV-25 - S2</option>
+                    <option>NRV-25 - S3</option>
+                    <option>NRV-25 - S4</option>
+                    <option>NRV-30 - S1</option>
+                    <option>NRV-30 - S2</option>
+                    <option>NRV-30 - S3</option>
+                    <option>NRV-30 - S4</option>
                 </select>
             </div>
-        </div>
-
-        <div class="form-group">
             <label class="col-lg-2 control-label text_style" for="qty">Quantity</label>
 
-            <div class="col-lg-10">
+            <div class="col-lg-3">
                 <input type="number" min="1" max="500" value="1" name="qty" id="qty" class="form-control">
             </div>
+
+            <button class="btn btn-default" type="button" onclick="orderMore();">Order More</button>
         </div>
 
         <div class="form-group">
             <label class="col-lg-2 control-label text_style" for="comments">Additional Comments</label>
 
             <div class="col-lg-10">
-                <textarea name="enquiry" id="comments" class="form-control" rows="2" placeholder="Comments"></textarea>
+                <textarea name="comments" id="comments" class="form-control" rows="2" placeholder="Comments"></textarea>
             </div>
         </div>
 
