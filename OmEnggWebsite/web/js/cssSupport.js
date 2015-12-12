@@ -85,8 +85,3 @@ function createFormField() {
 
     return attach;
 }
-
-
-function removeTag(){
-    this.parent('div').remove();
-}

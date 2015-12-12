@@ -131,9 +131,9 @@
     </fieldset>
 </form>
 <script type="text/javascript">
-    $(".btn-danger a").click(function(e) {
-        e.preventDefault();
-        $(this).parent().remove();
+    //This is to remove the fields from the UI.
+    $(document).on('click', '.btn-danger', function(events){
+        $(this).closest('div').remove();
     });
 </script>
 </body>
