@@ -31,32 +31,20 @@
       <file leaf-file-name="check_valve.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/html/check_valve.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-137.3077">
-              <caret line="210" column="31" selection-start-line="210" selection-start-column="31" selection-end-line="210" selection-end-column="31" />
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cssSupport.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cssSupport.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/cssSupport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8864407">
+              <caret line="79" column="86" selection-start-line="79" selection-start-column="86" selection-end-line="79" selection-end-column="86" />
               <folding>
                 <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="place_order.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/html/place_order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66843975">
-              <caret line="133" column="47" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="47" />
-              <folding>
-                <element signature="n#input#0;n#div#0;n#div#6;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -68,6 +56,40 @@
             <state vertical-scroll-proportion="-5.230769">
               <caret line="8" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menubar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/html/menubar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.230769">
+              <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_us.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/html/contact_us.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="place_order.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/html/place_order.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.346153">
+              <caret line="133" column="11" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
+              <folding>
+                <element signature="n#input#0;n#div#0;n#div#6;n#fieldset#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,13 +128,14 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/html/trial.html" />
         <option value="$PROJECT_DIR$/web/html/thanks.html" />
         <option value="$PROJECT_DIR$/web/css/custom.css" />
-        <option value="$PROJECT_DIR$/web/html/contact_us.html" />
         <option value="$PROJECT_DIR$/web/html/placeOrder.html" />
         <option value="$PROJECT_DIR$/web/html/tbar.html" />
-        <option value="$PROJECT_DIR$/web/html/menubar.html" />
         <option value="$PROJECT_DIR$/web/html/trial.html" />
-        <option value="$PROJECT_DIR$/web/js/cssSupport.js" />
+        <option value="$PROJECT_DIR$/web/html/check_valve.html" />
+        <option value="$PROJECT_DIR$/web/html/menubar.html" />
+        <option value="$PROJECT_DIR$/web/html/contact_us.html" />
         <option value="$PROJECT_DIR$/web/html/place_order.html" />
+        <option value="$PROJECT_DIR$/web/js/cssSupport.js" />
       </list>
     </option>
   </component>
@@ -302,6 +325,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitRepository\OmEnggWebsite\web\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\gitRepository\OmEnggWebsite\web" />
       <recent name="E:\gitRepository\OmEnggWebsite\web\WEB-INF\html" />
@@ -673,15 +699,15 @@
       <workItem from="1448508231586" duration="15010000" />
       <workItem from="1448601998776" duration="25791000" />
       <workItem from="1449561391880" duration="13518000" />
-      <workItem from="1449673283921" duration="27394000" />
+      <workItem from="1449673283921" duration="32042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82879000" />
+    <option name="totallyTimeSpent" value="87527000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1013,28 +1039,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/contact_us.html">
+    <entry file="file://$PROJECT_DIR$/web/js/jQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.384615">
-          <caret line="83" column="18" selection-start-line="47" selection-start-column="8" selection-end-line="83" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/menubar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.846154">
-          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/check_valve.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-137.3077">
-          <caret line="210" column="31" selection-start-line="210" selection-start-column="31" selection-end-line="210" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1047,22 +1055,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/cssSupport.js">
+    <entry file="file://$PROJECT_DIR$/web/html/check_valve.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/menubar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.230769">
+          <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
           <folding>
-            <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/html/place_order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66843975">
-          <caret line="133" column="47" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="47" />
+        <state vertical-scroll-proportion="-23.346153">
+          <caret line="133" column="11" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
           <folding>
-            <element signature="n#input#0;n#div#0;n#div#6;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#input#0;n#div#0;n#div#6;n#fieldset#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/cssSupport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8864407">
+          <caret line="79" column="86" selection-start-line="79" selection-start-column="86" selection-end-line="79" selection-end-column="86" />
+          <folding>
+            <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
           </folding>
         </state>
       </provider>
