@@ -11,6 +11,7 @@ function openDropdown(clicked_id) {
 }
 
 function load_map() {
+    alert("hello");
     var position = new google.maps.LatLng(15.815952, 74.495882);
     var myOptions = {
         zoom: 10,
@@ -58,9 +59,12 @@ function loadContainer(menu) {
         $('#contents').load('check_valve.html #check_valve');
     if (menu === "place_order")
         $('#contents').load('place_order.html #place_order');
-    if (menu === "contact_us")
+    if (menu === "contact_us") {
         $('#contents').load('contact_us.html #contact_us');
+        load_map();
+    }
 }
+
 
 function createFormField() {
     var attach = '<label class="col-lg-2 control-label text_style">Model Number</label>' +

@@ -1,0 +1,5 @@
+change color of menu which u have selected
+Image slider on home page
+Use common font
+create logo
+create footer
