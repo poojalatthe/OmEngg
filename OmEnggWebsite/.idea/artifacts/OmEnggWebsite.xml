@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="OmEnggWebsite">
+    <output-path>$PROJECT_DIR$/out/artifacts/OmEnggWebsite</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="OmEnggWebsite/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="OmEnggWebsite" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

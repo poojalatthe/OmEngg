@@ -1,0 +1,62 @@
+.iframe-styling{
+    border: none;
+}
+
+.table_style{
+    border: none;
+    cellspacing: 0;
+    cellpadding: 0;
+    width: 100%;
+}
+
+.td_style{
+    margin-top: 7px;
+    rowspan:2;
+    align:left;
+    valign:top;
+    width: 60%;
+}
+
+.heading_style {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    color: inherit;
+    font-size: 25px;
+}
+
+.text_style {
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.5;
+    color: inherit;
+}
+
+.tr_style{
+    line-height: 3;
+}
+
+table.primary tr:nth-child(odd) {
+    background-color: #757575;
+}
+table.primary tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.form_class{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form_style{
+    line-height: 2;
+}
+
+.form_style_margin{
+    margin-top: 5%;
+    margin-left: 23%;
+}
+
+.image_style{
+    width: 300px;
+    height: 250px;
+}
