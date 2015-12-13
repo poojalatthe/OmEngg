@@ -11,7 +11,6 @@ function openDropdown(clicked_id) {
 }
 
 function load_map() {
-    alert("hello");
     var position = new google.maps.LatLng(15.815952, 74.495882);
     var myOptions = {
         zoom: 10,
@@ -70,13 +69,13 @@ function createFormField() {
     var attach = '<label class="col-lg-2 control-label text_style">Model Number</label>' +
         '<div class="col-lg-3">' +
         '<select class="form-control" name="modelType">' +
-        '<option>NRV-6 - S1</option>  <option>NRV-6 - S2</option>  <option>NRV-6 - S3</option>  <option>NRV-6 - S4</option>' +
-        '<option>NRV-8 - S1</option>  <option>NRV-8 - S2</option> <option>NRV-8 - S3</option>  <option>NRV-8 - S4</option>' +
-        '<option>NRV-10 - S1</option>  <option>NRV-10 - S2</option> <option>NRV-10 - S3</option> <option>NRV-10 - S4</option>' +
-        '<option>NRV-15 - S1</option> <option>NRV-15 - S2</option> <option>NRV-15 - S3</option> <option>NRV-15 - S4</option>' +
-        '<option>NRV-20 - S1</option>      <option>NRV-20 - S2</option>       <option>NRV-20 - S3</option> <option>NRV-20 - S4</option>' +
-        '<option>NRV-25 - S1</option>  <option>NRV-25 - S2</option>    <option>NRV-25 - S3</option>   <option>NRV-25 - S4</option>' +
-        '<option>NRV-30 - S1</option>  <option>NRV-30 - S2</option>  <option>NRV-30 - S3</option>   <option>NRV-30 - S4</option>' +
+        '<option>CV-6 - S1</option>  <option>CV-6 - S2</option>  <option>CV-6 - S3</option>  <option>CV-6 - S4</option>' +
+        '<option>CV-8 - S1</option>  <option>CV-8 - S2</option> <option>CV-8 - S3</option>  <option>CV-8 - S4</option>' +
+        '<option>CV-10 - S1</option>  <option>CV-10 - S2</option> <option>CV-10 - S3</option> <option>CV-10 - S4</option>' +
+        '<option>CV-15 - S1</option> <option>CV-15 - S2</option> <option>CV-15 - S3</option> <option>CV-15 - S4</option>' +
+        '<option>CV-20 - S1</option>      <option>CV-20 - S2</option>       <option>CV-20 - S3</option> <option>CV-20 - S4</option>' +
+        '<option>CV-25 - S1</option>  <option>CV-25 - S2</option>    <option>CV-25 - S3</option>   <option>CV-25 - S4</option>' +
+        '<option>CV-30 - S1</option>  <option>CV-30 - S2</option>  <option>CV-30 - S3</option>   <option>CV-30 - S4</option>' +
         '</select>  </div>  <label class="col-lg-2 control-label text_style">Quantity</label> ' +
         '<div class="col-lg-3">' +
         '<input type="number" min="1" max="500" value="1" name="qty"class="form-control">'
