@@ -76,8 +76,8 @@ function createFormField() {
         '</select>  </div>  <label class="col-lg-2 control-label text_style">Quantity</label> ' +
         '<div class="col-lg-3">' +
         '<input type="number" min="1" max="500" value="1" name="qty"class="form-control">'
-        + '</div>' + '<button class="btn btn-success" type="button" onclick="orderMore();">+</button> ' +
-        '<button class="btn btn-danger" type="button" onclick="removeTag(this)">-</button>';
+        + '</div>' + '<button class="btn btn-success" type="button" onclick="orderMore();">Add</button> ' +
+        '<button class="btn btn-danger" type="button" onclick="removeTag(this)">Cancel</button>';
 
     return attach;
 }
