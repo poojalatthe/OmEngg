@@ -5,44 +5,48 @@
     <link rel="stylesheet" type="text/css" href="../css/custom.css">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <script type="text/javascript" src="../js/cssSupport.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jQuery.js"></script>
     <script type="text/javascript"
             src="http://maps.google.com/maps/api/js?sensor=false">
     </script>
     <title>Menu Page</title>
+    <style type="text/css">
+        .navbar-brand>img {
+            max-height: 100%;
+            height: 100%;
+            width: 100%;
+         }
+    </style>
 </head>
 <body>
 <div class="bs-docs-section clearfix">
     <div class="row">
         <div class="col-lg-12">
-            <div class="page-header">
-                <img src="../img/logo.png" height="10%" width="8%" style="float: left">
-
-                <h1>Om Engineering Company</h1>
-            </div>
-
-            <div class="bs-component">
+             <div class="bs-component">
                 <nav class="navbar navbar-inverse" id="navigation-bar">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#bs-example-navbar-collapse-2">
+                            <button id="mobile" type="button" class="navbar-toggle collapsed"
+                                    onclick="openCollapse(this.id);" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#" onclick="loadContainer('home_page')">Home</a>
+                            <a class="navbar-brand" href="#"><img src="../img/logo.png">
+                            </a>
                         </div>
-
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                             <ul class="nav navbar-nav">
-                                <li id="dropdown" class="dropdown" onclick="openDropdown(this.id);">
+                                <li>
+                                    <a href="#" onclick="loadContainer('home_page')">Home</a>
+                                </li>
+                                <li id="dropdown" class="dropdown" onmouseover="openDropdown(this.id);" onmouseout="openDropdown(this.id);">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                        aria-expanded="false">Products <span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="#">Custom</a></li>
-                                        <li><a href="#" onclick="loadContainer('check_valve')">Check Valve</a></li>
+                                        <li><a href="#" onclick="loadContainer('check_valve');">Check Valve</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" onclick="loadContainer('place_order')">Place Order</a></li>
@@ -59,18 +63,22 @@
     </div>
 </div>
 <div class="container">
-<div id="contents">
-</div>
-
-<br><br><br>
-<footer>
-    <div class="row">
-        <div class="col-lg-12" align="center">
-            <p>Made by <a href="http://thomaspark.co" rel="nofollow">Pooja Latthe</a>. Contact her at <a href="mailto:link2poo@gmail.com">link2poo@gmail.com</a>.</p>
-            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
-        </div>
+    <div id="contents">
     </div>
-</footer>
+
+    <br><br><br>
+    <footer>
+        <div class="row">
+            <div class="col-lg-12" align="center">
+                <p>Made by <a href="http://thomaspark.co" rel="nofollow">Pooja Latthe</a>. Contact her at <a
+                        href="mailto:link2poo@gmail.com">link2poo@gmail.com</a>.</p>
+
+                <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a
+                        href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts
+                    from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+            </div>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
