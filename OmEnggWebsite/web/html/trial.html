@@ -14,7 +14,7 @@
 </head>
 <body>
 <img src="firstcar.gif" id="slide" width="100" height="56" />
-
+<img src="firstcar.gif" id="slide1" width="100" height="56" />
 <script type="text/javascript">
 
     //variable that will increment through the images
@@ -25,6 +25,11 @@
         if (!document.images)
             return
         document.getElementById('slide').src = slideimages[step].src
+        if (step == 2){
+            document.getElementById('slide1').src = slideimages[0].src
+        }else{
+            document.getElementById('slide1').src = slideimages[step+1].src
+        }
         if (step<2)
             step++
         else
