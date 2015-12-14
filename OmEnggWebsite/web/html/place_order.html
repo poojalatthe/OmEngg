@@ -8,133 +8,130 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 </head>
 <body>
-<form class="form-horizontal form_class" action="////formspree.io/link2poo@gmail.com" method="post">
-    <div class="heading_style form_style" align="center">
-        <b> Place your order by filling the following details. </b>
-        <br>
-        <h4>**If you want to place a order in Custom section, Please write to us via Contact Us form</h4>
-    </div>
-
-    <fieldset>
-        <div class="form-group form_style">
-            <label class="col-lg-2 control-label text_style" for="name">Name</label>
-
-            <div class="col-lg-10">
-                <input name="name" id="name" class="form-control" type="text" placeholder="Name/Company Name"/>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class=" col-lg-2 control-label text_style" for="contact">Contact Number</label>
-
-            <div class="col-lg-10">
-                <input name="contact" id="contact" class="form-control" type="text" placeholder="Contact Number"/>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-2 control-label text_style" for="inputEmail">Email</label>
-
-            <div class="col-lg-10">
-                <input name="_replyto" id="inputEmail" class="form-control" placeholder="Email" type="email"/>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-2 control-label text_style" for="textArea">Address</label>
-
-            <div class="col-lg-10">
-                <textarea name="address" id="textArea" class="form-control" rows="2"></textarea>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class=" col-lg-2 control-label text_style" for="city">City</label>
-
-            <div class="col-lg-10">
-                <input name="city" id="city" class="form-control" type="text" placeholder="City"/>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class=" col-lg-2 control-label text_style" for="state">State</label>
-
-            <div class="col-lg-10">
-                <input name="state" id="state" class="form-control" type="text" placeholder="State"/>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class=" col-lg-2 control-label text_style" for="country">Country</label>
-
-            <div class="col-lg-10">
-                <input autocomplete='off' type="text" class="form-control" disabled="" name="country" id="country"
-                       value="India">
-            </div>
+<div class="container" id="place_order">
+    <form class="form-horizontal form_class" action="////formspree.io/link2poo@gmail.com" method="post">
+        <div class="heading_style form_style" align="center">
+            <b> Place your order by filling the following details. </b>
+            <br>
+            <h4>**If you want to place a order in Custom section, Please write to us via Contact Us form</h4>
         </div>
 
-        <div class="form-group" id="repeat">
-            <label class="col-lg-2 control-label text_style">Model Number</label>
+        <fieldset>
+            <div class="form-group form_style">
+                <label class="col-lg-2 control-label text_style" for="name">Name</label>
 
-            <div class="col-lg-3">
-                <select class="form-control" name="modelType">
-                    <option>NRV-6 - S1</option>
-                    <option>NRV-6 - S2</option>
-                    <option>NRV-6 - S3</option>
-                    <option>NRV-6 - S4</option>
-                    <option>NRV-8 - S1</option>
-                    <option>NRV-8 - S2</option>
-                    <option>NRV-8 - S3</option>
-                    <option>NRV-8 - S4</option>
-                    <option>NRV-10 - S1</option>
-                    <option>NRV-10 - S2</option>
-                    <option>NRV-10 - S3</option>
-                    <option>NRV-10 - S4</option>
-                    <option>NRV-15 - S1</option>
-                    <option>NRV-15 - S2</option>
-                    <option>NRV-15 - S3</option>
-                    <option>NRV-15 - S4</option>
-                    <option>NRV-20 - S1</option>
-                    <option>NRV-20 - S2</option>
-                    <option>NRV-20 - S3</option>
-                    <option>NRV-20 - S4</option>
-                    <option>NRV-25 - S1</option>
-                    <option>NRV-25 - S2</option>
-                    <option>NRV-25 - S3</option>
-                    <option>NRV-25 - S4</option>
-                    <option>NRV-30 - S1</option>
-                    <option>NRV-30 - S2</option>
-                    <option>NRV-30 - S3</option>
-                    <option>NRV-30 - S4</option>
-                </select>
+                <div class="col-lg-10">
+                    <input name="name" id="name" class="form-control" type="text" placeholder="Name/Company Name"/>
+                </div>
             </div>
-            <label class="col-lg-2 control-label text_style" for="qty">Quantity</label>
+            <div class="form-group">
+                <label class=" col-lg-2 control-label text_style" for="contact">Contact Number</label>
 
-            <div class="col-lg-3">
-                <input type="number" min="1" max="500" value="1" name="qty" id="qty" class="form-control">
+                <div class="col-lg-10">
+                    <input name="contact" id="contact" class="form-control" type="text" placeholder="Contact Number"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label text_style" for="inputEmail">Email</label>
+
+                <div class="col-lg-10">
+                    <input name="_replyto" id="inputEmail" class="form-control" placeholder="Email" type="email"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label text_style" for="textArea">Address</label>
+
+                <div class="col-lg-10">
+                    <textarea name="address" id="textArea" class="form-control" rows="2"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class=" col-lg-2 control-label text_style" for="city">City</label>
+
+                <div class="col-lg-10">
+                    <input name="city" id="city" class="form-control" type="text" placeholder="City"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class=" col-lg-2 control-label text_style" for="state">State</label>
+
+                <div class="col-lg-10">
+                    <input name="state" id="state" class="form-control" type="text" placeholder="State"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class=" col-lg-2 control-label text_style" for="country">Country</label>
+
+                <div class="col-lg-10">
+                    <input autocomplete='off' type="text" class="form-control" disabled="" name="country" id="country"
+                           value="India">
+                </div>
             </div>
 
-            <button class="btn btn-default" type="button" onclick="orderMore();">Order More</button>
-        </div>
+            <div class="form-group" id="repeat">
+                <label class="col-lg-2 control-label text_style">Model Number</label>
 
-        <div class="form-group">
-            <label class="col-lg-2 control-label text_style" for="comments">Additional Comments</label>
+                <div class="col-lg-3">
+                    <select class="form-control" name="modelType">
+                        <option>CV-6 - S1</option>
+                        <option>CV-6 - S2</option>
+                        <option>CV-6 - S3</option>
+                        <option>CV-6 - S4</option>
+                        <option>CV-8 - S1</option>
+                        <option>CV-8 - S2</option>
+                        <option>CV-8 - S3</option>
+                        <option>CV-8 - S4</option>
+                        <option>CV-10 - S1</option>
+                        <option>CV-10 - S2</option>
+                        <option>CV-10 - S3</option>
+                        <option>CV-10 - S4</option>
+                        <option>CV-15 - S1</option>
+                        <option>CV-15 - S2</option>
+                        <option>CV-15 - S3</option>
+                        <option>CV-15 - S4</option>
+                        <option>CV-20 - S1</option>
+                        <option>CV-20 - S2</option>
+                        <option>CV-20 - S3</option>
+                        <option>CV-20 - S4</option>
+                        <option>CV-25 - S1</option>
+                        <option>CV-25 - S2</option>
+                        <option>CV-25 - S3</option>
+                        <option>CV-25 - S4</option>
+                        <option>CV-30 - S1</option>
+                        <option>CV-30 - S2</option>
+                        <option>CV-30 - S3</option>
+                        <option>CV-30 - S4</option>
+                    </select>
+                </div>
+                <label class="col-lg-2 control-label text_style" for="qty">Quantity</label>
 
-            <div class="col-lg-10">
-                <textarea name="comments" id="comments" class="form-control" rows="2" placeholder="Comments"></textarea>
+                <div class="col-lg-3">
+                    <input type="number" min="1" max="500" value="1" name="qty" id="qty" class="form-control">
+                </div>
+
+                <button class="btn btn-default" type="button" onclick="orderMore();">Order More</button>
             </div>
-        </div>
 
-        <input type="hidden" name="_subject" value="Website Placed Order"/>
-        <input type="hidden" name="_next" value="thanks.html"/>
+            <div class="form-group">
+                <label class="col-lg-2 control-label text_style" for="comments">Additional Comments</label>
 
-        <div class="form-group">
-            <div align="center">
-                <input type="submit" class="btn btn-primary" value="Submit"/>
-                <button type="reset" class="btn btn-default">Cancel</button>
+                <div class="col-lg-10">
+                    <textarea name="comments" id="comments" class="form-control" rows="2"
+                              placeholder="Comments"></textarea>
+                </div>
             </div>
-        </div>
-    </fieldset>
-</form>
-<script type="text/javascript">
-    //This is to remove the fields from the UI.
-    $(document).on('click', '.btn-danger', function(events){
-        $(this).closest('div').remove();
-    });
-</script>
+
+            <input type="hidden" name="_subject" value="Website Placed Order"/>
+            <input type="hidden" name="_next" value="thanks.html"/>
+
+            <div class="form-group">
+                <div align="center">
+                    <input type="submit" class="btn btn-primary" value="Submit"/>
+                    <button type="reset" class="btn btn-default">Cancel</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
 </body>
 </html>
