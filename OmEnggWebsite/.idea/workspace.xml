@@ -42,9 +42,10 @@
         <entry file="file://$PROJECT_DIR$/web/js/cssSupport.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="68" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="68" />
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
+                <marker date="1450085996382" expanded="true" signature="74:151" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -63,11 +64,9 @@
       <file leaf-file-name="menubar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/html/menubar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3617021">
-              <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.4574468">
+              <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -719,12 +718,12 @@
       <workItem from="1450010152229" duration="1720000" />
       <workItem from="1450012043912" duration="703000" />
       <workItem from="1450019736105" duration="1123000" />
-      <workItem from="1450077098778" duration="5115000" />
+      <workItem from="1450077098778" duration="7380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98086000" />
+    <option name="totallyTimeSpent" value="100351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1362" height="726" extended-state="0" />
@@ -790,9 +789,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,6 +825,7 @@
           <caret line="79" column="86" selection-start-line="79" selection-start-column="86" selection-end-line="79" selection-end-column="86" />
           <folding>
             <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
+            <marker date="1450085996382" expanded="true" signature="74:151" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -844,9 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -926,6 +922,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
+            <marker date="1450085996382" expanded="true" signature="74:151" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -934,9 +931,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -991,6 +986,7 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
+            <marker date="1450085996382" expanded="true" signature="74:151" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1006,9 +1002,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,6 +1034,7 @@
           <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
+            <marker date="1450085996382" expanded="true" signature="74:151" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1055,9 +1050,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,20 +1167,19 @@
     <entry file="file://$PROJECT_DIR$/web/js/cssSupport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="68" />
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc;n#openDropdown#0" expanded="false" />
+            <marker date="1450085996382" expanded="true" signature="74:151" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/html/menubar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021">
-          <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.4574468">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
