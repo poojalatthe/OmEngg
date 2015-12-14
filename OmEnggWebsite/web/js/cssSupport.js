@@ -10,6 +10,18 @@ function openDropdown(clicked_id) {
         document.getElementById(clicked_id).className = "dropdown open";
 }
 
+function openCollapse(clicked_id) {
+
+    if (document.getElementById(clicked_id).className === "navbar-toggle collapsed"){
+        document.getElementById(clicked_id).className = "navbar-toggle";
+        document.getElementById("bs-example-navbar-collapse-2").className = "collapse navbar-collapse in";
+    }
+    else{
+        document.getElementById(clicked_id).className = "navbar-toggle collapsed";
+        document.getElementById("bs-example-navbar-collapse-2").className = "collapse navbar-collapse";
+    }
+}
+
 function load_map() {
     var position = new google.maps.LatLng(15.815952, 74.495882);
     var myOptions = {
