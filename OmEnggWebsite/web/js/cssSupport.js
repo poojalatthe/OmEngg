@@ -76,7 +76,6 @@ function loadContainer(menu) {
     }
 }
 
-
 function createFormField() {
     var attach = '<label class="col-lg-2 control-label text_style">Model Number</label>' +
         '<div class="col-lg-3">' +
@@ -95,4 +94,51 @@ function createFormField() {
         '<button class="btn btn-danger" type="button" onclick="removeTag(this)">Cancel</button>';
 
     return attach;
+}
+
+var slideimages = new Array(); // create new array to preload images
+slideimages[0] = new Image(); // create new instance of image object
+slideimages[0].src = "../img/logo.png"; // set image src property to image path, preloading image in the process
+slideimages[1] = new Image();
+slideimages[1].src = "../img/non_return_valve.jpg";
+slideimages[2] = new Image();
+slideimages[2].src = "../img/logo.png";
+
+var step=0
+
+var facilityimages = new Array(); // create new array to preload images
+facilityimages[0] = new Image(); // create new instance of image object
+facilityimages[0].src = "../img/logo.png"; // set image src property to image path, preloading image in the process
+facilityimages[1] = new Image();
+facilityimages[1].src = "../img/non_return_valve.jpg";
+facilityimages[2] = new Image();
+facilityimages[2].src = "../img/logo.png";
+
+var facilitystep=0
+
+
+function slideit(){
+    //if browser does not support the image object, exit.
+    if (!document.images)
+        return
+    document.getElementById('slide').src = slideimages[step].src
+    if (step<2)
+        step++
+    else
+        step=0
+    //call function "slideit()" every 2.5 seconds
+    setTimeout("slideit()",2500)
+}
+
+function facility(){
+    //if browser does not support the image object, exit.
+    if (!document.images)
+        return
+    document.getElementById('facility').src = facilityimages[facilitystep].src
+    if (facilitystep<2)
+        facilitystep++
+    else
+        facilitystep=0
+    //call function "slideit()" every 2.5 seconds
+    setTimeout("facility()",2500)
 }

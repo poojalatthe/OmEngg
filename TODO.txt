@@ -1,5 +1,3 @@
-change color of menu which u have selected
-Image slider on home page
+Make the js work on loading the new page
 Use common font
-create logo
-create footer
+Make images responsive.
