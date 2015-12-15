@@ -60,3 +60,7 @@ table.primary tr:nth-child(even) {
     width: 300px;
     height: 250px;
 }
+
+.table{
+    width: 100%;
+}
