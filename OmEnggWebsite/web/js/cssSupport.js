@@ -63,7 +63,7 @@ function removeTag(obj){
 }
 
 function loadContainer(menu) {
-
+    openCollapse("mobile");
     if (menu === "home_page")
         $('#contents').load('home_page.html #home_page');
     if (menu === "check_valve")
@@ -77,7 +77,7 @@ function loadContainer(menu) {
 }
 
 function createFormField() {
-    var attach = '<label class="col-lg-2 control-label text_style">Model Number</label>' +
+    var attach = '<div class="order_more"><label class="col-lg-2 control-label text_style">Model Number</label>' +
         '<div class="col-lg-3">' +
         '<select class="form-control" name="modelType">' +
         '<option>CV-6 - S1</option>  <option>CV-6 - S2</option>  <option>CV-6 - S3</option>  <option>CV-6 - S4</option>' +
@@ -91,7 +91,7 @@ function createFormField() {
         '<div class="col-lg-3">' +
         '<input type="number" min="1" max="500" value="1" name="qty"class="form-control">'
         + '</div>' + '<button class="btn btn-success" type="button" onclick="orderMore();">Add</button> ' +
-        '<button class="btn btn-danger" type="button" onclick="removeTag(this)">Cancel</button>';
+        '<button class="btn btn-danger" type="button" onclick="removeTag(this)">Cancel</button><div>';
 
     return attach;
 }
