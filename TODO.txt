@@ -1,3 +1,4 @@
-1. Make the js work on loading the new page.
+1. Make Website secure by changing the location of all other files and menu files
 2. Use common font.
 3. Make images responsive.
+4. Make formspree data secure

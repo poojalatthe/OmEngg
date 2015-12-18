@@ -12,11 +12,11 @@ function openDropdown(clicked_id) {
 
 function openCollapse(clicked_id) {
 
-    if (document.getElementById(clicked_id).className === "navbar-toggle collapsed"){
+    if (document.getElementById(clicked_id).className === "navbar-toggle collapsed") {
         document.getElementById(clicked_id).className = "navbar-toggle";
         document.getElementById("bs-example-navbar-collapse-2").className = "collapse navbar-collapse in";
     }
-    else{
+    else {
         document.getElementById(clicked_id).className = "navbar-toggle collapsed";
         document.getElementById("bs-example-navbar-collapse-2").className = "collapse navbar-collapse";
     }
@@ -47,32 +47,35 @@ function load_map() {
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
     });
-
 }
 
 function orderMore() {
-    console.log("Hello");
     var original = document.getElementById('repeat');
     var divele = document.createElement("div");
     divele.innerHTML = createFormField();
     original.appendChild(divele);
 }
 
-function removeTag(obj){
+function removeTag(obj) {
     obj.closest('div').remove();
 }
 
 function loadContainer(menu) {
     openCollapse("mobile");
-    if (menu === "home_page")
-        $('#contents').load('home_page.html #home_page');
+    if (menu === "home_page") {
+        $("#contents").load("home_page.html #home_page", function () {
+            slideit();
+            facility();
+        });
+    }
     if (menu === "check_valve")
         $('#contents').load('check_valve.html #check_valve');
     if (menu === "place_order")
         $('#contents').load('place_order.html #place_order');
     if (menu === "contact_us") {
-        $('#contents').load('contact_us.html #contact_us');
-        load_map();
+        $('#contents').load('contact_us.html #contact_us', function () {
+            load_map();
+        });
     }
 }
 
@@ -96,15 +99,15 @@ function createFormField() {
     return attach;
 }
 
-var slideimages = new Array(); // create new array to preload images
-slideimages[0] = new Image(); // create new instance of image object
-slideimages[0].src = "../img/logo.png"; // set image src property to image path, preloading image in the process
-slideimages[1] = new Image();
-slideimages[1].src = "../img/non_return_valve.jpg";
-slideimages[2] = new Image();
-slideimages[2].src = "../img/logo.png";
+var product_images = new Array(); // create new array to preload images
+product_images[0] = new Image(); // create new instance of image object
+product_images[0].src = "../img/logo.png"; // set image src property to image path, preloading image in the process
+product_images[1] = new Image();
+product_images[1].src = "../img/non_return_valve.jpg";
+product_images[2] = new Image();
+product_images[2].src = "../img/logo.png";
 
-var step=0
+var step = 0;
 
 var facilityimages = new Array(); // create new array to preload images
 facilityimages[0] = new Image(); // create new instance of image object
@@ -114,31 +117,30 @@ facilityimages[1].src = "../img/non_return_valve.jpg";
 facilityimages[2] = new Image();
 facilityimages[2].src = "../img/logo.png";
 
-var facilitystep=0
+var facilitystep = 0;
 
-
-function slideit(){
+function slideit() {
     //if browser does not support the image object, exit.
     if (!document.images)
-        return
-    document.getElementById('slide').src = slideimages[step].src
-    if (step<2)
-        step++
+        return;
+    document.getElementById('slide').src = product_images[step].src;
+    if (step < 2)
+        step++;
     else
-        step=0
+        step = 0;
     //call function "slideit()" every 2.5 seconds
-    setTimeout("slideit()",2500)
+    setTimeout("slideit()", 2500);
 }
 
-function facility(){
+function facility() {
     //if browser does not support the image object, exit.
     if (!document.images)
-        return
-    document.getElementById('facility').src = facilityimages[facilitystep].src
-    if (facilitystep<2)
-        facilitystep++
+        return;
+    document.getElementById('facility').src = facilityimages[facilitystep].src;
+    if (facilitystep < 2)
+        facilitystep++;
     else
-        facilitystep=0
+        facilitystep = 0;
     //call function "slideit()" every 2.5 seconds
-    setTimeout("facility()",2500)
+    setTimeout("facility()", 2500);
 }
